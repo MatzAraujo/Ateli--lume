@@ -1,0 +1,11 @@
+{
+  "name":"Ateliê Lume Lash","version":"1.0.0","style":"warm editorial luxury","tokens":{
+    "colors":{"background":"#F7F3ED","surface":"#FFFCF8","surfaceMuted":"#EEE7DF","ink":"#29201C","muted":"#776C65","accent":"#805B49","accentHover":"#674635","border":"#D9CEC4","onDark":"#FFF8F1","overlay":"rgba(19,12,9,0.53)"},
+    "typography":{"display":{"family":"Cormorant Garamond, Georgia, serif","weights":[400,500],"sizes":{"mobile":"3.25rem","desktop":"5.5rem"},"lineHeight":0.94},"body":{"family":"DM Sans, sans-serif","weights":[400,500,600],"base":"1rem","lineHeight":1.6},"eyebrow":{"size":"0.68rem","weight":600,"letterSpacing":"0.22em","transform":"uppercase"}},
+    "spacing":{"sectionMobile":"4.5rem","sectionDesktop":"7rem","container":"1180px","gutter":"24px","gridGap":"24px"},
+    "radii":{"card":"2px","button":"999px"},"shadows":{"card":"0 12px 35px rgba(42,26,17,.07)"},"breakpoints":{"tablet":"768px","desktop":"1024px"},"motion":{"fast":"180ms","standard":"300ms","easing":"ease-out"}
+  },
+  "components":{"button":{"shape":"pill","variants":["filled","outline","light"]},"serviceCard":{"imageRatio":"4/3","border":true},"faq":{"type":"accordion","singleOpen":false},"navigation":{"mobile":"collapsible","desktop":"horizontal"}},
+  "sections":["header","hero","services","results","about","benefits","testimonials","faq","finalCta","footer"],
+  "contentPolicy":{"portfolioImages":"demonstration placeholders until licensed client assets","testimonials":"illustrative examples, not real reviews","whatsapp":"configure real client number before production"}
+}
